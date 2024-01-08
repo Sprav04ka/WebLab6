@@ -11,25 +11,18 @@
 <body>
     <!-- partial:index.partial.html -->
     <form id="main" v-cloak>
-
         <div class="bar">
-            <!-- Создает связь мужду моделью searchString model и текстовым полем -->
-
             <input type="text" v-model="searchString" placeholder="Введите название статьи" />
         </div>
-
         <ul>
-            <!-- Рендерится li под каждый элемент массива filteredArticles. -->
-
             <li v-for="article in filteredArticles">
                 <a v-bind:href="article.url"><img v-bind:src="article.image" /></a>
                 <p>{{article.title}}</p>
             </li>
         </ul>
-
     </form>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min
+        .js"></script>
     <!-- partial -->
     <script src="./script.js"></script>
 
