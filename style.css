@@ -39,9 +39,9 @@ nav {
 .bar {
     background-color: #85b7de;
 
-    background-image: -webkit-linear-gradient(top, #5c9bb7, #5392ad);
+    background-image: -webkit-linear-gradient(top, #f7facf, #6e7053);
     background-image: -moz-linear-gradient(top, #f7facf, #6e7053);
-    background-image: linear-gradient(top, #5c9bb7, #5392ad);
+    background-image: linear-gradient(top, #f7facf, #6e7053);
 
     box-shadow: 0 1px 1px #ccc;
     border-radius: 2px;
